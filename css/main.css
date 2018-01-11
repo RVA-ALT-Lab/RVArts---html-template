@@ -1,8 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+/*@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Raleway');*/
+
 
 .card img {
     height: 200px;
     object-fit: cover;
+}
+.card {
+  z-index: 0;
+}
+
+.card:hover {
+  bottom: 10px;
+  left: -10px;
+}
+
+.card-background {
+  background: url("../imgs/hover-background-pattern.png") repeat;
+  z-index: -10;
+  position: absolute;
 }
 
 h1 {
@@ -14,7 +30,7 @@ h1 {
 }
 
 a {  
-  font-family:'Raleway', sans-serif;
+  font-family:'Nunito', sans-serif;
   text-transform: uppercase;
   color: #424242;
   text-decoration: none;
