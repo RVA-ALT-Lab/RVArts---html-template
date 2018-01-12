@@ -38,9 +38,9 @@ var match =  classDate(data);
       '<div id="' +
       data.id +
       '" class="event '+classDate(data)+ '"' +
-      '><div class="card event-content text-center"><img src="'+featuredImg(data)+'"><a href="'+data.url+'"><h2 class="card-title event-title">' +
+      '><div class="event-bg"><div class="card event-content text-center"><img src="'+featuredImg(data)+'"><a href="'+data.url+'"><h2 class="card-title event-title">' +
       data.title +
-      '</h2></a><div class="date-holder">'+theDate(data)+'</div></div></div>' 
+      '</h2></a><div class="date-holder">'+theDate(data)+'</div></div></div></div>' 
     ) 
   );
 }
