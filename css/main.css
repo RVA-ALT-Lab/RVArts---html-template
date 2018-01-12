@@ -11,6 +11,8 @@
   bottom: 0;
   left: 0;
   transition: all .5s ease 0s;
+  overflow: hidden;
+  border-radius: 0;
 }
 
 .card:hover {
@@ -18,10 +20,9 @@
   left: -10px;
 }
 
-.card-background {
+.event-bg {
   background: url("../imgs/hover-background-pattern.png") repeat;
-  z-index: -10;
-  position: absolute;
+
 }
 
 h1 {
